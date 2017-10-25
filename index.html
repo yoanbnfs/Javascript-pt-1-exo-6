@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_6</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form name="form1">
+            <label for="premier_nombre">Premier nombre : </label><input type="text" id="premier_nombre" value="" name="premier_nombre"/><br/>
+            <label for="deuxieme_nombre">Deuxième nombre : </label><input type="text" id="deuxieme_nombre" value="" name="deuxieme_nombre"/><br/>
+            <button  id="valider" name ="valider" onclick="divide()">Valider</button>
+            <script type="text/javascript" src="assets/js/script.js">
+            function multiply() {
+              var nombreUn = document.getElementById('premier_nombre');
+              var nombreDeux = document.getElementById('deuxieme_nombre');
+              alert(parseInt(nombreUn.value) * parseInt(nombreDeux.value));
+            }
+            divide();
+            </script>
+        </form>
+    </body>
+</html>
